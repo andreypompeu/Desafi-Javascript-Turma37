@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let inicio = 1
+        for (inicio; inicio < 6; inicio = inicio + 1) {
+            const nome = prompt("Adicione o nome" + inicio)
+            alunos.push(nome)
+        }
+        let indice = 0
+        for (indice; indice < alunos.lenght; indice = indice + 1) {
+            const nome = alunos[indice]
+            if (nome.lenght === 5) {
+                alert(nome)
+            }
+        }
+        document.write(alunos.join(","))
+    </script>
+</body>
+
+</html>
